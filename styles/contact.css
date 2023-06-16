@@ -1,0 +1,104 @@
+#contact{
+    width: 100%;
+    margin-top: 10vh;
+    background: #202020;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    /* align-items: center; */
+    gap: 2.5rem;
+    padding: 40px 15%;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.nav-link-contact h4{
+    color:#fff;
+    margin: 18px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-link-contact h2{
+    font-size: 3rem;
+    line-height: 1;
+}
+.nav-link-contact p{
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.list{
+    margin-bottom: 2.8rem;
+}
+.list li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.list li a{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    transition: all .45s ease;
+    text-decoration: none;
+}
+.list li a:hover{
+    color: #fff;
+    transform: translateX(5px);
+}
+.contact-icons a{text-decoration: none;}
+.contact-icons i{
+    height:  45px;
+    width: 45px;
+    background: #ff004f;
+    color: #fff;
+    font-size: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 15px;
+    transition: all .45s ease;
+}
+.contact-icons i:hover{
+    background-color: #fff;
+    color: #ff004f;
+}
+.contact-form form{
+    position: relative;
+}
+.contact-form form input, form textarea{
+    width: 100%;
+    padding: 14px;
+    background: #2a2a2a;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.contact-form textarea{
+    resize: none;
+    height: 240px;
+}
+.contact-form .submit{
+    display: inline-block;
+    font-size: 16px;
+    background: #ff004f;
+    color: #fff;
+    width: 160px;
+    transition: all .45s ease;
+}
+.contact-form .submit:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+@media only screen and (max-width:1140px) {
+    #contact {
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px 10%;
+    }
+} 
+@media only screen and (max-width:479px) {
+    
+}
