@@ -5,8 +5,10 @@
 }
 
 #Profile_image {
-    width: 55%;
-    height: 40%;
+    /* width: 55%;
+    height: 40%; */
+    width: 40%;
+    height: auto;
     padding-left: 70px;
     margin-top: 20px;
     padding-top: 40px;

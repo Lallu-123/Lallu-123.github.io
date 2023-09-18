@@ -1,7 +1,8 @@
 #contact{
     width: 100%;
     margin-top: 10vh;
-    background: #202020;
+    /* background: #202020; */
+    background:#080808;
     /* display: grid;
     grid-template-columns: repeat(2,1fr); */
     /* align-items: center; */
@@ -93,6 +94,13 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+
+.icon-list {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed for spacing */
+    align-items: center; /* Align icons vertically if necessary */
+}
+
 @media only screen and (max-width:1140px) {
     #contact {
         grid-template-columns: repeat(1,1fr);
@@ -101,4 +109,83 @@
 } 
 @media only screen and (max-width:479px) {
     
+}
+
+
+
+/* aaaaaa */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contact-container {
+    /* background-color: #22201e; */
+    padding: 48px;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.contact-title {
+    color: white;
+    font-size: 32px;
+}
+
+.contact-subtitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.divider {
+    width: 10%;
+    border: 0px solid #2b6cb0;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.contact-details {
+    text-align: left;
+}
+
+.contact-button {
+    background-color: transparent;
+    border: 0px solid #2b6cb0;
+    color: #DCE2FF;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.contact-button:hover {
+    border: 2px solid #ff004f;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.icon-link:hover {
+    color: #ff004f;
 }

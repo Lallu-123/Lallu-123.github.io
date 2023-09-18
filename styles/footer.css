@@ -3,9 +3,10 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 2rem;
-    background: #2a2a2a;
+    background: #080808;
+    justify-content: center;
 }
 .last-text p{
     color: #fff;
@@ -24,4 +25,14 @@
 } 
 @media only screen and (max-width:479px) {
     
+}
+
+/* sejhu34 h */
+footer {
+    text-align: center;
+}
+
+
+.last-text {
+    font-size: 14px; /* Adjust the font size as needed */
 }
